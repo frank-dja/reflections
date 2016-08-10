@@ -1,0 +1,9 @@
+-What happens when you initialize a repository? 
+Why do you need to do it?
+	When a repository is initialized, git creates a 
+	hidden directory that will store the necessary files to 
+	manage the version control. 
+
+	We initialize a repository to start the version control 
+	of a directory from the scratch, that is, without 
+	copying/clonning data from other repository.
