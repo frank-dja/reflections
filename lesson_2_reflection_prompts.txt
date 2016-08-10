@@ -7,3 +7,12 @@ Why do you need to do it?
 	We initialize a repository to start the version control 
 	of a directory from the scratch, that is, without 
 	copying/clonning data from other repository.
+
+- How can you use the staging area to make sure 
+you have one commit per logical change?
+To do that, I can use "git diff" to compare the 
+files of the last commit, stored in the staging area,
+against the working directory files. Also, 
+before commiting, I can compare the staging area files
+against the files of the last commit through: 
+"git diff --staged". 
