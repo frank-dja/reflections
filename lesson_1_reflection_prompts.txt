@@ -1,0 +1,69 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff result showed the lines take out and 
+	added in the new version, in comparison to the 
+	old version. By looking at the added lines, I
+	identified a suspicious misspelling “KEY_STATUS.spacr”. I 
+	confirmed that that was a misspelling by finding 
+	a code “KEY_STATUS.space” in the old version.
+
+	Maybe the diff command can be applied to two 
+	versions of a folder, to find modified files, 
+	or spot specific lines modified between files. 
+	
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	Having access to the entire history of a file helps 
+	to easily compare different versions of our programs. 
+	This may allows us to find bugs easily, analise the differences 
+	of the programs that have reelevant impact on their performances, 
+	review our work done over a period of time, and undo changes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    	- We are able to select the frequency of saving versions.
+    	- We could better find a previous version as we 
+    	intentionally saved it. 
+    	
+    Cons:
+    	- We may forquet to do a commit when it was necessary.
+    	- We may lose some changes if we have our computer stuck 
+    	and we did not commit the changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think that it may be because some VCSs, like Git, 
+    have been designed to control SW projects, while the others, 
+    like Google Docs, are designed to control general user's
+    files, like .dox, etc.
+
+How can you use the commands git log and git diff to view the history of files?
+    "git log" lists the file versions, with a timestamp, saved 
+    using commit, each version identified by an ID.
+    "git diff" can be used to compare the compare the different 
+    file versions. The commit ID's are used to compare the versions.
+    The timestamps can be used to see the order of updates.
+    
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control allows to recover previous versions of our 
+    files. Therefore, if we introduce a bug (or a change that 
+    breaks something), we can revert the changes to 
+    a version that does not have that bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    I want to use Git to control the versions of 
+    my programs, specially those that are relatively 
+    complex or that are implemented in colaboration 
+    with others. Eventually, I could use it to control 
+    the different versions of any project, like 
+    a latex project of an article.
+    
