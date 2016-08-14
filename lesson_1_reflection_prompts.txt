@@ -66,4 +66,6 @@ Now that you have your workspace set up, what do you want to try using Git for?
     with others. Eventually, I could use it to control 
     the different versions of any project, like 
     a latex project of an article.
+
+    
     
