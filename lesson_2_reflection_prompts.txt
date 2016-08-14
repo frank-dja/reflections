@@ -16,3 +16,15 @@ against the working directory files. Also,
 before commiting, I can compare the staging area files
 against the files of the last commit through: 
 "git diff --staged". 
+
+- What are some situations when branches would be helpful 
+in keeping your history organized? How would branches help?
+I think that branches would be helpful when 
+we want to make (possible large) changes on 
+a project while we still want to continue 
+developing the original system. This includes changing a main functionality, 
+presentation (including GUIs and language), and the application 
+of the system to different data. Branches would help
+by allowing to continue developing the different version 
+of the systems in different branches, and allowing 
+to "merge" them if needed.    
