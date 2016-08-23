@@ -36,3 +36,14 @@ branch structure?
 	(when new branches are created). This view mey help 
 	to have a global vieew of the project history and use it 
 	to tasks like merging branches.
+
+- What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+	The result of merging two branches is a combination 
+	of the information of the files on both branches 
+	and the state in which the branches were separated.
+
+It is represented in that way because the merging commit 
+may give access to the last states of both branches, that is, 
+the last commit of both branches become fathers of the 
+mering commit.
